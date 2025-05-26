@@ -23,7 +23,7 @@ O tabuleiro é representado assim:
 
 1. Compile o código:
    ```bash
-   gcc shisima.c -o shisima
+   gcc Shishima_HxH_Grupo18.c -o shisima
    ```
 
 2. Execute o jogo:

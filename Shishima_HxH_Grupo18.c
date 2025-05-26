@@ -165,4 +165,5 @@ void mostrar_regras() {
     printf("Objetivo: alinhar suas 3 pecas em linha (horizontal, vertical ou diagonal) e que nao seja a inicial \n");
     printf("Informe as coordenadas da peca (linha coluna) e destino (linha coluna)\n");
     printf("Movimentos validos: apenas entre casas conectadas por linhas e que estejam vazias\n\n");
+    return;
 }
