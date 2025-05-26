@@ -10,9 +10,9 @@
 #include <stdbool.h>
 
 // define previamente funcoes que serao usadas
-void imprimir_tabuleiro();
-int verificar_vitoria();
-bool movimento_valido();
+void imprimir_tabuleiro(char tabuleiro[3][3], int turno);
+int verificar_vitoria(char tabuleiro[3][3], char jogador);
+bool movimento_valido(char tabuleiro[3][3], int l1, int c1, int l2, int c2, char jogador);
 void mostrar_regras();
 
 // Funco principal onde o jogo roda
